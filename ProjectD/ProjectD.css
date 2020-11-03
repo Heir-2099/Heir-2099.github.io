@@ -1,0 +1,96 @@
+	.LongHaul {
+		padding: 0% 5% 2% 5%;
+		background-image: url(longhaul.png);
+		background-repeat: no-repeat;
+	}
+
+	.LongHaul h2,
+	h3 {
+		color: #2E388A;
+		line-height: 3rem;
+		margin-bottom: 0;
+	}
+
+	.LongHaul h4,
+	p {
+		color: #3E3A39;
+		margin-top: 0.5rem;
+	}
+
+	.LongHaul h3 {
+		font-size: 30px;
+		margin-top: 0.6rem;
+	}
+
+	.LongHaul h3>span {
+		font-weight: lighter;
+	}
+
+	.LongHaul h4 {
+		font-size: 24px;
+		display: inline-block;
+
+	}
+
+	.LongHaul h4>span {
+		font-size: 22px;
+		font-weight: lighter;
+	}
+
+	.LongHaul>div {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.LongHaul3>div {
+		width: 29%;
+		margin-bottom: 1.2rem;
+	}
+
+	.LongHaul3>div:last-child {
+		width: 22%;
+	}
+
+	.LongHaul3>div img {
+		float: left;
+		margin-right: 4%;
+	}
+
+	.LongHaul4>div {
+		width: 46%;
+	}
+
+	.LongHaulqr {
+		position: relative;
+		top: -180px;
+	}
+
+	@media only screen and (max-width: 760px) {
+
+		.LongHaul3>div {
+			width: 50%;
+		}
+
+		.LongHaul3>div:last-child {
+			width: 50%;
+		}
+
+		.LongHaul4>div {
+			width: 100%;
+		}
+
+		.LongHaulqr {
+			top: 0px;
+		}
+	}
+
+	@media only screen and (max-width: 580px) {
+		.LongHaul3>div {
+			width: 100%;
+		}
+
+		.LongHaul3>div:last-child {
+			width: 100%;
+		}
+	}
