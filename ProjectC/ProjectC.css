@@ -1,0 +1,115 @@
+.langing {
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #dfdfdf;
+	padding-bottom: 20px;
+	width: 100%;
+	max-width: 940px;
+	margin: 20px auto;
+}
+
+.langing h2 {
+	font-family: 'calibri', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	margin: 40px 0px 0px 0px;
+	color: #000000;
+}
+
+.langing h3 {
+	font-weight: normal;
+	font-size: 25px;
+	margin: 0px;
+	line-height: 25px;
+	color: #000000;
+}
+
+.langing h5 {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0px;
+	line-height: 20px;
+}
+
+.langing h4 {
+	font-size: 22px;
+	color: #003C57;
+	margin: 20px 0px 10px 0px;
+}
+
+.langing h4 span {
+	font-weight: lighter;
+}
+
+.langing p {
+	font-size: 15px;
+	color: #5A5858;
+	margin: 0px;
+	line-height: 20px;
+}
+
+.langing ul {
+	font-size: 16px;
+	list-style: square;
+	color: #1F4757;
+	margin: 0px;
+	padding-left: 20px;
+}
+
+.langing a {
+	text-decoration: none;
+}
+
+.langing > div {
+	margin: 10px 0px;
+	padding: 0px 20px;
+}
+
+.langing > div:nth-child(3) {
+	background-color: #F1F5F8;
+}
+
+.langing > div:nth-child(3) > div {
+	padding: 15px 0px;
+	display: flex;
+}
+
+.langing > div:nth-child(3) > div > div {
+	margin-left: 5px;
+	align-self: center;
+}
+
+.langing div div div img {
+	vertical-align: middle;
+	max-width: 80px;
+}
+
+.EWpic {
+	float: right;
+	max-width: 36%;
+}
+
+.EWpic2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.EWpic2 div {
+	text-align: center;
+	align-self: center;
+}
+
+/* RWD */
+@media only screen and (max-width: 850px) {
+	.EWpic {
+		float: none;
+		max-width: 90%;
+	}
+
+	.langing div div div img {
+		max-width: 60px;
+	}
+
+	.langing > div:nth-child(2) > div > div br {
+		display: none;
+	}
+}
