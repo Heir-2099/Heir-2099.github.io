@@ -1,0 +1,80 @@
+	.OverPromo {
+		font-family: 'open sans', sans-serif;
+		text-align: center;
+		width: 100%;
+		max-width: 940px;
+		margin: 20px auto;
+	}
+
+
+	.OverPromo h2 {
+		color: #4f5d75;
+		font-size: 30px;
+		font-weight: lighter;
+	}
+
+
+	.OverPromo h3 {
+		font-size: 18px;
+		line-height: 22px;
+		margin: 10px 0px;
+	}
+
+	.OverPromo p {
+		font-size: 13px;
+		line-height: 17px;
+		color: #8a8a8a;
+		text-align: left;
+		margin-top: 0px;
+		padding: 0px 4px;
+	}
+
+	.OverPromo ul {
+		display: flex;
+		flex-flow: wrap;
+		padding: 0px;
+	}
+
+	.OverPromo li {
+		list-style: none;
+		padding: 0px 4px;
+		width: 32.4%;
+		position: relative;
+	}
+
+	.OverPromo li:before {
+		content: '';
+		border-top: solid 2px #c9caca;
+		position: absolute;
+		top: 18px;
+		left: 0;
+		right: 0;
+	}
+
+	.OverPromo a {
+		text-decoration: none;
+	}
+
+	.OverPromo div {
+		width: 40px;
+		height: 40px;
+		border: solid 4px #ffffff;
+		border-radius: 40px;
+		margin: 0px auto;
+		color: #ffffff;
+		position: relative;
+	}
+
+	.OverPromo div i {
+		font-size: 20px;
+		position: relative;
+		top: 10px;
+	}
+
+	.fa {
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
