@@ -1,0 +1,149 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #3b3a48;
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    background-color: #777672;
+    min-height: 40px;
+    line-height: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: #777672;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 14px;
+    display: inline-block;
+    background-color: #4e6b9a;
+    padding: 8px;
+    margin: 4px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.h2div {
+    display: inline-block;
+    border-top: solid 2px #4e6b9a;
+    border-bottom: solid 2px #4e6b9a;
+    margin-bottom: 20px;
+}
+
+.container-1000 {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.slideArt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding-left: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.slideArt li {
+    width: calc(100% / 5);
+    padding-left: 0;
+    margin: 0 6px;
+}
+
+.secdiv {
+    background-color: #d7d1c8;
+    padding: 30px 0;
+    margin: 40px 0px;
+}
+
+.secdiv p {
+    color: #3b3a48;
+}
+
+.charater {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.charater > div {
+    width: 50%;
+}
+
+.row-switch1{
+    order: 1;
+}
+
+.row-switch2{
+    order: 2;
+}
+
+.videoRwd {
+    position: relative;
+    margin: 20px 0;
+    padding-bottom: 56%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.videoRwd iframe,
+.videoRwd object,
+.videoRwd embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#contents > div {
+    display: none;
+}
+
+#contents > div:first-child {
+    display: block;
+}
+
+.tab01,
+.tab02,
+.tab03,
+.tab04,
+.tab05 {
+    cursor: pointer;
+    border-bottom: solid 4px #9e6e3a;
+}
+
+.tabline01,
+.tabline02,
+.tabline03,
+.tabline04,
+.tabline05 {
+    border-bottom: solid 4px #cbb05e;
+}
+
+@media only screen and (max-width: 760px) {
+    .charater {
+        display: block;
+    }
+
+    .charater > div {
+        width: 100%;
+    }
+
+    .container-1000 {
+        padding: 0 10px;
+    }
+}
